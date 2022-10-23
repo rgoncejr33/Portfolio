@@ -1,0 +1,211 @@
+header {
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    text-decoration: underline;
+    text-decoration-color: teal;
+    color: teal;
+    background-color: lightgray;
+    border: 5px solid teal;
+    font-size: 45px;
+    letter-spacing: 2px;
+    border-radius: 25px;
+}
+
+a:visited {
+    color: teal;
+}
+
+a:link {
+    color: teal;
+}
+
+body {
+    background-color: lightgray;
+}
+
+h1 {
+    justify-content: center;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: teal;
+    color: teal;
+    font-size: 40px;
+}
+
+.icon-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    letter-spacing: 2px;
+    justify-content: space-evenly;
+}
+
+#html {
+    width: 93.31px;
+    height: 93.31px;
+}
+
+#css {
+    width: 93.31px;
+    height: 93.31px;
+}
+
+#javascript {
+    width: 93.31px;
+    height: 93.31px;
+}
+
+#github {
+    width: 93.31px;
+    height: 93.31px;
+}
+
+#git {
+    width: 93.31px;
+    height: 93.31px;
+}
+
+.form-container {
+    width: 100%;
+    position: relative;
+    justify-content: center;
+}
+
+#form {
+    background-color: teal;
+    color: lightgray;
+    text-align: center;
+    justify-content: center;
+    border-radius: 25px;
+}
+
+input[type=text] {
+    background-color: lightgray;
+    border: 3px solid gray;
+    border-radius: 25px;
+    color: teal;
+}
+
+input[type=email] {
+    background-color: lightgray;
+    border: 3px solid gray;
+    border-radius: 25px;
+    color: teal;
+}
+
+ul {
+    list-style: none;
+}
+
+#button {
+    background-color: lightgray;
+    color: teal;
+    border-radius: 25px;
+    width: 20%;
+    height: 10%;
+    font-size: 20px;
+    padding: 5px 5px;
+    margin: 20px 20px;
+    border: 3px solid gray;
+}
+
+textarea {
+    width: 1200px;
+    height: 350px;
+    background-color: lightgray;
+    border-radius: 25px;
+    border: 3px solid gray;
+    margin-top: 5px;
+    color: teal;
+}
+
+input {
+    width: 300px;
+    height: 30px;
+}
+
+p {
+    text-align: center;
+    color: teal;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+
+footer {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div {
+    font-size: 30px;
+}
+
+@media screen and (max-width: 400px){
+    nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: right;
+        padding-left: 0px;
+    }
+
+    ul {
+        padding: 0%;
+    }
+    
+    .icon-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #html {
+        width: 300px;
+        height: 300px;
+    }
+
+    #css {
+        width: 300px;
+        height: 300px;
+    }
+
+    #javascript {
+        width: 300px;
+        height: 300px;
+    }
+
+    #github {
+        width: 300px;
+        height: 300px;
+    }
+
+    #git {
+        width: 300px;
+        height: 300px;
+    }
+
+    div, img + p {
+        font-size: 50px;
+    }
+
+    .messageArea {
+        display: flex;
+        flex-direction: column;
+        padding-left: 30px;
+    }
+
+    textarea {
+        width: 90%;
+    }
+
+    .form-container {
+        padding: 0 0 0 0;
+    }
+
+    #button {
+        width: 35%;
+    }
+}
